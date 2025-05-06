@@ -1,0 +1,165 @@
+/* Summary Component Styles */
+.summary-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 8px;
+  }
+  
+  .summary-title {
+    color: #1e1e24;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    text-align: left;
+    font-weight: 600;
+  }
+  
+  .section-title {
+    color: #1e1e24;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+  }
+  
+  .divider {
+    height: 1px;
+    background-color: #e0e0e0;
+    margin: 1.5rem 0;
+  }
+  
+  /* Resume Section */
+  .resume-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0;
+  }
+  
+  .file-name {
+    font-weight: 500;
+    color: #333;
+  }
+  
+  /* Tables */
+  .info-table, .skills-table, .education-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+  }
+  
+  .info-table td, .skills-table td {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #f0f0f0;
+    vertical-align: top;
+  }
+  
+  .info-table td {
+    padding-right: 1.5rem;
+  }
+  
+  .info-table td:first-child,
+  .skills-table td:first-child {
+    font-weight: 500;
+    color: #6c757d;
+    width: 25%;
+  }
+  
+  .skills-table td:nth-child(2) {
+    font-weight: 500;
+  }
+  
+  .education-table th, .education-table td {
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  
+  .education-table th {
+    background-color: #f9f9f9;
+    font-weight: 500;
+    color: #6c757d;
+  }
+  
+  .education-table .empty-row td {
+    color: #6c757d;
+    font-size: 0.9rem;
+    padding: 0.5rem 0.75rem;
+    border-bottom: none;
+  }
+  
+  /* Terms Section */
+  .terms-section {
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    color: #6c757d;
+    line-height: 1.6;
+  }
+  
+  .terms-checkbox {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .terms-checkbox input {
+    margin-right: 0.5rem;
+  }
+  
+  /* Action Buttons */
+  .action-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+  }
+  
+  .edit-button, .confirm-button {
+    padding: 0.75rem 2rem;
+    border-radius: 4px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s;
+    width: 48%;
+  }
+  
+  .edit-button {
+    border: 1px solid #e0e0e0;
+    background-color: white;
+    color: #1e1e24;
+  }
+  
+  .edit-button:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .confirm-button {
+    background-color: #e86242;
+    color: white;
+    border: none;
+  }
+  
+  .confirm-button:hover {
+    background-color: #d5573b;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .summary-container {
+      padding: 1rem;
+    }
+    
+    .info-table td {
+      display: block;
+      width: 100%;
+      padding-right: 0;
+    }
+    
+    .action-buttons {
+      flex-direction: column;
+      gap: 1rem;
+    }
+    
+    .edit-button, .confirm-button {
+      width: 100%;
+    }
+  }

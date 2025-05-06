@@ -1,0 +1,84 @@
+.basic-info-form {
+  padding: 2rem 0;
+  font-family: "Inter", sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.basic-info-form h2 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem; /* Reduced from 1.5rem */
+  color: #555;
+  margin-left: 0; /* Remove left margin */
+}
+
+.form-row {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+  margin-left: 0; /* Remove left margin */
+}
+
+.form-row input,
+.contact-field select {
+  flex: 1;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+  outline: none;
+}
+
+.contact-field {
+  display: flex;
+  flex: 1;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.contact-field select {
+  max-width: 100px;
+  background-color: #f9f9f9;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.contact-field input {
+  flex: 1;
+}
+
+.button-group {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.back-btn,
+.next-btn {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.back-btn {
+  border: 1px solid #aaa;
+  background-color: white;
+}
+
+.next-btn {
+  background-color: #eb5e32;
+  color: white;
+  border: none;
+}
+
+.next-btn:hover {
+  background-color: #d74e25;
+}
